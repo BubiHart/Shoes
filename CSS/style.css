@@ -1,0 +1,119 @@
+header {
+    height: 45px;
+    width: 100%;
+    background-color: #242424;
+}
+
+.header-wrapper {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.header-wrapper__logo {
+    height: 100%;
+    width: 170px;
+    margin-left: 10px;
+    float: left;
+    background-color: green;
+}
+
+.header-wrapper__search-icon {
+    float: left;
+    margin-left: 600px;
+    margin-top: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: green;
+}
+
+.header-wrapper__login-register {
+    float: right;
+    margin-right: 40px;
+    height: 100%;
+    width: 140px;
+    background-color: green;
+}
+
+.menu {
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.menu-wrapper {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.menu-wrapper__main-navigation {
+    margin-left: 10px;
+    height: 100%;
+    width: 565px;
+    float: left;
+    background-color: pink;
+}
+
+.menu-wrapper__wishlist-cart {
+    height: 100%;
+    width: 182px;
+    float: right;
+    background-color: pink;
+    margin-right: 41px;
+}
+
+.top{
+  height: 460px;
+  width: 100%;
+  background-color: black;
+}
+.top-wrapper{
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: red;
+}
+.top-wrapper__item-description{
+  width: 500px;
+  height: 100%;
+  float: right;
+  background-color: yellow;
+}
+.top-wrapper__item-description__price{
+  width: 68px;
+  height: 67px;
+  background-color: green;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.top-wrapper__item-description__item-title{
+  width: 470px;
+  padding-top: 10px;
+  height: 85px;
+  background-color: blue;
+  padding-left: 30px;
+  padding-bottom: 7px;
+}
+.top-wrapper__item-description__content{
+  width: 470px;
+  height: 65px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  background-color: green;
+}
+.top-wrapper__item-description__action-menu{
+  height: 40px;
+  width: 165px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-right: 10px;
+  background-color: blue;
+}
+.top-slider{
+  height: 90px;
+  width: 100%;
+  background-color: #2e2e2e;
+}
