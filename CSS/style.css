@@ -8,24 +8,38 @@ header {
     height: 100%;
     width: 1000px;
     margin: 0 auto;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .header-wrapper__logo {
     height: 100%;
-    width: 170px;
+    width: auto;
     margin-left: 10px;
     float: left;
-    background-color: green;
+    /*background-color: green;*/
+}
+
+.header-wrapper__logo-title {
+  padding-left: 5px;
+    padding-top: 11px;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #57c5a0;
 }
 
 .header-wrapper__search-icon {
+    background-image: url("../Images/SearchIcon.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
     float: left;
-    margin-left: 600px;
+    margin-left: 591px;
     margin-top: 15px;
-    height: 15px;
-    width: 15px;
-    background-color: green;
 }
 
 .header-wrapper__login-register {
@@ -33,9 +47,19 @@ header {
     margin-right: 40px;
     height: 100%;
     width: 140px;
-    background-color: green;
+    /*background-color: green;*/
+    border-left: 1px solid #383838;
+    border-right: 1px solid #383838;
 }
-
+.header-wrapper__login-register-text{
+  float: left;
+  font-size: 11px;
+  line-height: 2.27;
+  text-align: center;
+  color: #7e7e7e;
+  padding-left: 20px;
+  padding-top: 10px;
+}
 .menu {
     height: 60px;
     width: 100%;
