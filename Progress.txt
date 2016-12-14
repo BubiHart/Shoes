@@ -5,3 +5,5 @@ Grid part 4 10.12.2016 total time-02:13:00 end GRID
 !Making grid takes 02:13:00
 Header with pixel perfect total time-02:40:00 end HEADER
 !Making header takes 00:27:00
+Menu with pixel perfect(only problem with main navigation links text) total time-03:12:00 end MENU
+!Making menu takes 00:32:00
