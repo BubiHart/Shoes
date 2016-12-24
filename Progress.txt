@@ -7,3 +7,5 @@ Header with pixel perfect total time-02:40:00 end HEADER
 !Making header takes 00:27:00
 Menu with pixel perfect(only problem with main navigation links text) total time-03:12:00 end MENU
 !Making menu takes 00:32:00
+Top with pixel perfect total time-04:27:00 end TOP
+!Making top takes 01:15:00

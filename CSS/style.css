@@ -258,42 +258,61 @@ header {
 
 .top-wrapper__item-description__action-menu {
     height: 40px;
-    width: 180px;
-    margin-left: 30px;
+    width: auto;
+    margin-left: 25px;
     margin-top: 25px;
-    padding-right: 10px;
-    background-color: blue;
+    /*padding-right: 10px;*/
+    /*background-color: blue;*/
 }
-.top-wrapper__item-description__action-menu-eye{
-  background-image: url("../Images/ActionEye.png");
-  float: left;
-  height: 40px;
+.top-wrapper__item-description__action-menu-icons-container:first-child{
+  margin-left: 0px;
+}
+.top-wrapper__item-description__action-menu-icons-container:last-child{
+  width: 36px;
+}
+.top-wrapper__item-description__action-menu-icons-container{
   width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  /*margin-left: 2px;*/
+  background-color: #ffffff/*red*/;
+  /*padding-left: 2px;*/
+  display: inline-block;
+}
+
+.top-wrapper__item-description__action-menu-eye{
+  background-image: url("../Images/EyeIcon.png");
+  width: 16px;
+ height: 10px;
   background-repeat: no-repeat;
+  margin-top: 16px;
+  margin-left: 15px;
 }
 .top-wrapper__item-description__action-menu-wishlist{
-background-image: url("../Images/ActionWish.png");
+background-image: url("../Images/StarIconTop.png");
 background-repeat: no-repeat;
-height: 40px;
-width: 40px;
-float: left;
-margin-left: 2px;
+width: 16px;
+height: 16px;
+margin-left: 12px;
+margin-top: 12px;
 }
   .top-wrapper__item-description__action-menu-share{
-    background-image: url("../Images/ActionShare.png");
+    background-image: url("../Images/ShareIcon.png");
     background-repeat: no-repeat;
-    height: 40px;
-    width: 40px;
-    float: left;
-    margin-left: 2px;
+    width: 16px;
+  height: 16px;
+    margin-left: 10px;
+    margin-top: 14px;
+
   }
     .top-wrapper__item-description__action-menu-cart{
-      background-image: url("../Images/ActionCart.png");
+      background-image: url("../Images/CartIconTop.png");
       background-repeat: no-repeat;
-      height: 40px;
-      width: 40px;
-      margin-left: 2px;
-float: left;
+      width: 16px;
+  height: 13px;
+      margin-left: 9px;
+      margin-top: 14px;
     }
 .top-slider {
     height: 90px;
