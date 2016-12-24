@@ -9,3 +9,5 @@ Menu with pixel perfect(only problem with main navigation links text) total time
 !Making menu takes 00:32:00
 Top with pixel perfect total time-04:27:00 end TOP
 !Making top takes 01:15:00
+Specials with pixel perfect(but problem with text(without pixel perfect and padding/margin)) total tome -04:40:00 end SPECIALS
+!Making specials takes 0:13:00
