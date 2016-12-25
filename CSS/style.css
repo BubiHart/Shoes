@@ -426,20 +426,20 @@ header {
 .commercial {
     width: 100%;
     height: 1002px;
-    background-color: black;
+    background-color: #eeede9;
 }
 
 .commercial__new-arrivals-wrapper {
     width: 1000px;
     height: 359px;
     margin: 0 auto;
-    background-color: yellow;
+    background-color: #eeede9;
 }
 
 .commercial__new-arrivals-wrapper__top-bar {
     height: 88px;
     width: 100%;
-    background-color: pink;
+    background-color: #eeede9;
 }
 
 .commercial__new-arrivals-wrapper__top-bar__title {
@@ -476,7 +476,7 @@ header {
 .commercial__new-arrivals-wrapper__item-bar {
     height: 271px;
     width: 100%;
-    background-color: red;
+  background-color: #eeede9;
 }
 /*Items*/
 .commercial__new-arrivals-wrapper__item-bar__item-1 {
@@ -613,65 +613,202 @@ header {
     width: 1000px;
     height: 359px;
     margin: 0 auto;
-    background-color: yellow;
+      background-color: #eeede9;
 }
 
 .commercial__best-sellers-wrapper__top-bar {
     height: 88px;
     width: 100%;
-    background-color: pink;
+      background-color: #eeede9;
 }
 
 .commercial__best-sellers__top-bar__title {
-    height: 20px;
-    width: 275px;
-    background-color: green;
-    margin-top: 40px;
-    margin-left: 18px;
+    margin-top: 19px;
+    margin-left: 17px;
     float: left;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.4;
+    text-align: left;
+    color: #242424;
 }
 
 .commercial__best-sellers-wrapper__top-bar__show-all {
+    float: right;
+    margin-top: 33px;
+    margin-right: 42px;
     width: 100px;
     height: 30px;
-    float: right;
     background-color: #ebe7df;
-    margin-top: 35px;
-    margin-right: 42px;
+    border: solid 1px #bcb5a7;
+}
+
+.commercial__best-sellers-wrapper__top-bar__show-all-text {
+  margin-top: 3px;
+  margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.79;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #bcb5a7;
+    /*color: var(--greyish);*/
 }
 
 .commercial__best-sellers-wrapper__item-bar {
-    height: 275px;
+    height: 271px;
     width: 100%;
-    background-color: red;
+  background-color: #eeede9;
 }
-
+/*Items*/
 .commercial__best-sellers-wrapper__item-bar__item-1 {
-    width: 300px;
-    height: 270px;
-    float: left;
-    margin-top: 5px;
     margin-left: 20px;
-    background-color: green;
+    background-image: url("../Images/Item1BS.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    float: left;
 }
-
 .commercial__best-sellers-wrapper__item-bar__item-2 {
-    width: 300px;
-    height: 270px;
-    float: left;
-    margin-top: 5px;
-    margin-left: 20px;
-    background-color: green;
+  margin-left: 20px;
+  background-image: url("../Images/Item2BS.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  height: 270px;
+  width: 300px;
+  float: left;
 }
 
 .commercial__best-sellers-wrapper__item-bar__item-3 {
-    width: 300px;
-    height: 270px;
-    float: right;
-    margin-top: 4px;
-    margin-right: 40px;
-    background-color: green;
+  margin-left: 20px;
+  background-image: url("../Images/Item3BS.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  height: 270px;
+  width: 300px;
+  float: left;
 }
+/*Description of item 1*/
+.commercial__best-sellers-wrapper__item-bar__item-1-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__best-sellers-wrapper__item-bar__item-1-price-text{
+  margin-top: 24px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__best-sellers-wrapper__item-bar__item-1-title{
+  float: right;
+  margin-top: 230px;
+  margin-right: 120px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
+/*Description of item 2*/
+.commercial__best-sellers-wrapper__item-bar__item-2-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__best-sellers-wrapper__item-bar__item-2-price-text{
+  margin-top: 24px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__best-sellers-wrapper__item-bar__item-2-title{
+  float: right;
+  margin-top: 235px;
+  margin-right: 118px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
+.commercial__best-sellers-wrapper__item-bar__item-2-status{
+  float: right;
+  width: 68px;
+ height: 67px;
+ background-color: #242424;
+ margin-right: 14px;
+}
+.commercial__best-sellers-wrapper__item-bar__item-2-status-text{
+  margin-top: 21px;
+  margin-left: 7px;
+  font-size: 13px;
+ font-weight: bold;
+ line-height: 1.92;
+ text-align: left;
+ color: #ffffff;
+}
+/*Description of item 3*/
+.commercial__best-sellers-wrapper__item-bar__item-3-status{
+  float: right;
+  width: 68px;
+ height: 67px;
+ background-color: #f27e4b;
+ margin-right: 14px;
+ margin-top: 5px;
+}
+.commercial__best-sellers-wrapper__item-bar__item-3-status-text{
+  margin-top: 19px;
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  text-align: center;
+  color: #ffffff;
+}
+.commercial__best-sellers-wrapper__item-bar__item-3-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__best-sellers-wrapper__item-bar__item-3-price-text{
+  margin-top: 24px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__best-sellers-wrapper__item-bar__item-3-title{
+  float: right;
+  margin-top: 163px;
+  margin-right: 67px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
+/**/
 
 .commercial__footer-wrapper {
     width: 1000px;

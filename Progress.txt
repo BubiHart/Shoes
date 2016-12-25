@@ -13,3 +13,5 @@ Specials with pixel perfect(but problem with text(without pixel perfect and padd
 !Making specials takes 0:13:00
 Commercial part 1 25.12.2016 total time-5:22:00 end NEW ARRIVALS
 !Making new arrivals takes 0:42:00
+Commercial part 2 25.12.2016 total time-05:47:00 end BEST SELLERS(without pixel perfect(problem with images))
+!Making best sellers takes 0:25:00
