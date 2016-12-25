@@ -343,56 +343,60 @@ header {
 }
 
 .specials-wrapper__on-sale {
-  background-image: url("../Images/OnSale.png");
-  background-repeat: no-repeat;
+    background-image: url("../Images/OnSale.png");
+    background-repeat: no-repeat;
     height: 180px;
     width: 300px;
     float: left;
     margin-top: 25px;
     margin-left: 19px;
 }
-.specials-wrapper__on-sale__content{
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 2.4;
-  text-align: center;
-  color: #ffffff;
+
+.specials-wrapper__on-sale__content {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.4;
+    text-align: center;
+    color: #ffffff;
 }
 
 .specials-wrapper__special-offers {
-  background-image: url("../Images/SpecialsOffers.png");
-  background-repeat: no-repeat;
+    background-image: url("../Images/SpecialsOffers.png");
+    background-repeat: no-repeat;
     height: 180px;
     width: 300px;
     float: left;
     margin-top: 25px;
     margin-left: 19px;
 }
-.specials-wrapper__special-offers__content{
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 2.4;
-  text-align: left;
-  color: #ffffff;
-  padding-left: 5px;
+
+.specials-wrapper__special-offers__content {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.4;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 5px;
 }
 
 .specials-wrapper__must-have {
-  background-image: url("../Images/MustHave.png");
-  background-repeat: no-repeat;
+    background-image: url("../Images/MustHave.png");
+    background-repeat: no-repeat;
     height: 180px;
     width: 300px;
     float: left;
     margin-top: 25px;
     margin-left: 19px;
 }
-.specials-wrapper__must-have__content{
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 2.4;
-  text-align: left;
-  color: #ffffff;
-  padding-left: 15px;*/
+
+.specials-wrapper__must-have__content {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.4;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 15px;
+    */
 }
 
 .specials-wrapper__on-sale__content {
@@ -439,21 +443,34 @@ header {
 }
 
 .commercial__new-arrivals-wrapper__top-bar__title {
-    height: 20px;
-    width: 310px;
-    background-color: green;
-    margin-top: 35px;
-    margin-left: 18px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.4;
+    text-align: left;
+    color: #242424;
+    margin-top: 15px;
+    margin-left: 15px;
     float: left;
 }
 
 .commercial__new-arrivals-wrapper__top-bar__show-all {
-    width: 100px;
-    height: 30px;
     float: right;
-    background-color: #ebe7df;
     margin-top: 30px;
     margin-right: 42px;
+    width: 100px;
+    height: 30px;
+    background-color: #ebe7df;
+    border: solid 1px #bcb5a7;
+}
+
+.commercial__new-arrivals-wrapper__top-bar__show-all-text {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.79;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #bcb5a7;
+    /*color: var(--greyish);*/
 }
 
 .commercial__new-arrivals-wrapper__item-bar {
@@ -461,32 +478,135 @@ header {
     width: 100%;
     background-color: red;
 }
-
+/*Items*/
 .commercial__new-arrivals-wrapper__item-bar__item-1 {
-    width: 300px;
-    height: 270px;
-    float: left;
     margin-left: 20px;
-    background-color: green;
+    background-image: url("../Images/Item1.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    float: left;
 }
-
 .commercial__new-arrivals-wrapper__item-bar__item-2 {
-    width: 300px;
-    height: 270px;
-    float: left;
-    margin-left: 20px;
-    background-color: green;
+  margin-left: 20px;
+  background-image: url("../Images/Item2.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  height: 270px;
+  width: 300px;
+  float: left;
 }
 
 .commercial__new-arrivals-wrapper__item-bar__item-3 {
-    width: 300px;
-    height: 270px;
-    float: right;
-    margin-right: 40px;
-    background-color: green;
+  margin-left: 20px;
+  background-image: url("../Images/Item3.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  height: 270px;
+  width: 300px;
+  float: left;
 }
-
-
+/*Description of item 1*/
+.commercial__new-arrivals-wrapper__item-bar__item-1-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-1-price-text{
+  margin-top: 19px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-1-title{
+  float: right;
+  margin-top: 230px;
+  margin-right: 120px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
+/*Description of item 2*/
+.commercial__new-arrivals-wrapper__item-bar__item-2-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-2-price-text{
+  margin-top: 19px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-2-title{
+  float: right;
+  margin-top: 163px;
+  margin-right: 118px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-2-status{
+  float: right;
+  width: 68px;
+ height: 67px;
+ background-color: #242424;
+ margin-right: 14px;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-2-status-text{
+  margin-top: 21px;
+  margin-left: 7px;
+  font-size: 13px;
+ font-weight: bold;
+ line-height: 1.92;
+ text-align: left;
+ color: #ffffff;
+}
+/*Description of item 3*/
+.commercial__new-arrivals-wrapper__item-bar__item-3-price{
+  background-color: #57c5a0;
+    width: 68px;
+    height: 66px;
+    margin-top: 205px;
+    margin-left: 12px;
+    float: left;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-3-price-text{
+  margin-top: 19px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.92;
+  text-align: left;
+  color: #ffffff;
+}
+.commercial__new-arrivals-wrapper__item-bar__item-3-title{
+  float: right;
+  margin-top: 230px;
+  margin-right: 67px;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #242424;
+}
 /**/
 
 .commercial__best-sellers-wrapper {
