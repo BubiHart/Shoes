@@ -971,8 +971,9 @@ header {
     margin-left: 15px;
     margin-top: -4px;
 }
-.commercial__footer-wrapper__blog-news__post:last-child{
-  margin-top: 50px;
+
+.commercial__footer-wrapper__blog-news__post:last-child {
+    margin-top: 50px;
 }
 
 .commercial__footer-wrapper__blog-news__post-date-counter {
@@ -1000,7 +1001,7 @@ header {
     color: #ffffff;
 }
 
-.commercial__footer-wrapper__blog-news__post-title{
+.commercial__footer-wrapper__blog-news__post-title {
     /*background-color: green;*/
     font-size: 14px;
     font-weight: bold;
@@ -1009,7 +1010,7 @@ header {
 }
 
 .commercial__footer-wrapper__blog-news__post-content {
-   min-width: 354px;
+    min-width: 354px;
     width: auto;
     height: auto;
     background-color: yellow;

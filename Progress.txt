@@ -15,3 +15,5 @@ Commercial part 1 25.12.2016 total time-5:22:00 end NEW ARRIVALS
 !Making new arrivals takes 0:42:00
 Commercial part 2 25.12.2016 total time-05:47:00 end BEST SELLERS(without pixel perfect(problem with images))
 !Making best sellers takes 0:25:00
+Commercial part 3 01.01.2017 total time -07:25:00 end FOOTER WRAPPER (without pixel perfect(problem with fonts))
+!Making footer wrapper takes 01:38:00
