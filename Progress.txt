@@ -18,3 +18,4 @@ Commercial part 2 25.12.2016 total time-05:47:00 end BEST SELLERS(without pixel 
 Commercial part 3 01.01.2017 total time -07:25:00 end FOOTER WRAPPER (without pixel perfect(problem with fonts))
 !Making footer wrapper takes 01:38:00
 !!!Making commercial takes 02:45:00
+Previous version of the cite total time -09:02:00
