@@ -61,7 +61,12 @@ header {
     padding-left: 20px;
     padding-top: 10px;
 }
-
+.login-register-links:hover{
+  color: red;
+}
+.login-register-links:visited{
+  color: #7e7e7e;
+}
 
 /**/
 
@@ -107,6 +112,11 @@ header {
 
 .menu-wrapper__main-navigation-li:first-child {
     padding-left: 21px;
+}
+
+.menu-wrapper__main-navigation-li a:hover {
+    color: #57c5a0;
+    /*background-color: red;*/
 }
 
 .menu-wrapper__wishlist-cart {
@@ -1328,6 +1338,10 @@ footer {
     float: right;
     margin-right: 73px;
     margin-top: 31px;
+}
+
+a.additional-menu:visited {
+    color: #fff;
 }
 
 
