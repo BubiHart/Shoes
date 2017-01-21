@@ -8,7 +8,6 @@ header {
     height: 100%;
     width: 1000px;
     margin: 0 auto;
-    /*background-color: red;*/
 }
 
 .header-wrapper__logo {
@@ -16,7 +15,6 @@ header {
     width: auto;
     margin-left: 10px;
     float: left;
-    /*background-color: green;*/
 }
 
 .header-wrapper__logo-title {
@@ -47,13 +45,12 @@ header {
     margin-right: 40px;
     height: 100%;
     width: 140px;
-    /*background-color: green;*/
     border-left: 1px solid #383838;
     border-right: 1px solid #383838;
 }
 
 .header-wrapper__login-register-links{
-  color: #7e7e7e;
+  /*color: #7e7e7e;*/
 }
 .header-wrapper__login-register-text {
     float: left;
@@ -65,13 +62,16 @@ header {
     padding-top: 10px;
 }
 .login-register-links:hover{
-  color: #57c5a0;
+  color: #57c5a0 ;
 }
 .login-register-links:visited{
-  color: #7e7e7e;
+  color: #7e7e7e ;
+}
+.login-register-links:visited:hover{
+  color: #57c5a0 ;
 }
 .login-register-links:active{
-  color: #7e7e7e;
+  color: #7e7e7e ;
 }
 
 /**/
@@ -1391,9 +1391,13 @@ li {
 
 a {
     text-decoration: none;
+    color: #7e7e7e;
 }
 a:hover{
   opacity: 0.7;
+}
+a:link:active, a:visited:active {
+    color: none;
 }
 .price {
     /*width: auto;
@@ -1403,4 +1407,11 @@ a:hover{
     color: #fff;
     font-size: 13px;
     line-height: 69px;
+}
+.links{
+  color: #fff;
+}
+
+.links:hover{
+  color: #57c5a0 ;
 }
